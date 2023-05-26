@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    line-height: 25px;
+    /* letter-spacing: 2px; */
+  }
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+header{
+    background-image: url(Media/muro-hormigon-gris-claro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a{
+  font-size: 30px;
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+  transition: 0.8s all ;
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 25px;
+}
+
+a:hover{
+  font-size: 35px;
+  color: blueviolet;
+
+}
+
+.espaciado{
+  padding-top: 10px;
+}
+
+
+
+.footer-contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(130, 153, 212);
+}
+
+.footer-contenedor p{
+  display: inline-block;
+  padding: auto ;
+  text-align: center;
+}
+
+.redes-contenedor{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.iconos-redes{
+  padding: 10px;
+}
