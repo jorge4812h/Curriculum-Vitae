@@ -29,8 +29,6 @@ a{
 
 a:hover{
   font-size: 35px;
-  color: blueviolet;
-
 }
 
 .espaciado{
@@ -110,4 +108,18 @@ li{
 .iconos-redes{
   padding: 10px;
   box-sizing: border-box;
+}
+
+/* Sobre Mi */
+
+.contenedor-sobremi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.info-container{
+  padding: 20px 50px;
+  text-align: center;
 }
