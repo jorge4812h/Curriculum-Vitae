@@ -1,13 +1,10 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    line-height: 25px;
-    /* letter-spacing: 2px; */
-  }
+  margin: 0;
+  box-sizing:content-box;
+}
 
 body{
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Wix Madefor Text', sans-serif;
+  font-family: 'Poppins';
 }
 
 header{
@@ -16,7 +13,7 @@ header{
     background-repeat: no-repeat;
 }
 
-.contenedor{
+.contenedor-header{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,16 +24,7 @@ a{
   text-decoration: none;
   font-style: normal;
   color: black;
-  transition: 0.8s all ;
-
-}
-
-main{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 25px;
+  transition: 0.5s all;
 }
 
 a:hover{
@@ -51,26 +39,75 @@ a:hover{
 
 
 
+/*Main - Contenido*/
+
+.seccion-titulo{  
+  margin-top: 10px;
+  letter-spacing: 10px;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.titulo-contenedor{
+  background-color: antiquewhite;
+  padding: 5px 0 5px 10px;
+}
+
+.contenedor-datos, .contenedor-formacion, .contenedor-experiencia{
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.contenedor-lista{
+  margin: 20px 0px;
+}
+
+.enunciado-lista{
+  font-weight: bolder;
+}
+
+li{
+  margin: 5px 0px ;
+}
+
+.lista-formacion{
+  list-style-type: circle;
+}
+
+.lista-experiencia{
+  list-style-type:square;
+}
+
+.experiencia-datos{
+  margin-top: 20px;
+}
+
+/*Footer*/
+
 .footer-contenedor{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(130, 153, 212);
+  background-color: rgb(198, 202, 210);
+  box-sizing: border-box;
 }
 
 .footer-contenedor p{
   display: inline-block;
-  padding: auto ;
   text-align: center;
 }
 
 .redes-contenedor{
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  margin: 10px;
 }
 
 .iconos-redes{
   padding: 10px;
+  box-sizing: border-box;
 }
